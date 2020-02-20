@@ -1,7 +1,20 @@
-<h1>The Muffington Post</h1>
+<!DOCTYPE html>
+<html>
+    <body>
 
-<form action="/articles" method="post">
-  <input type="text" id = "title" name="article[title]">
-  <input type="text" id = "content" name="article[content]">
- <button type="submit" value="submit">Submit</button>
-</form>
+    <form method="POST" action="/articles">
+
+    <label>Title:
+    <input id="name" type="text" name="title">
+    </label>
+    <label>Content:
+    <input id="content" type="text" name="content">
+    </label>
+
+    <input type="submit">
+
+    </form>
+
+    </body>
+
+ </html> 
